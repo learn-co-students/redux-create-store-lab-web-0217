@@ -1,4 +1,4 @@
-function candyReducer(state = [], action) {
+function candyReducer(action, state = []) {
   switch (action.type) {
     case 'ADD_CANDY':
       return [...state, action.candy];

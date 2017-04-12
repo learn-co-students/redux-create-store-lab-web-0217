@@ -1,4 +1,4 @@
-function countReducer(state = 0, action) {
+function countReducer(action, state = 0) {
   switch (action.type) {
     case 'INCREMENT_COUNT':
       return state + 1;
